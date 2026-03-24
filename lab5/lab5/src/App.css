@@ -1,0 +1,96 @@
+.container {
+  width: 80%;
+  max-width: 800px;
+  margin: 30px auto;
+  font-family: Arial, sans-serif;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.form-box {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.form-box label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.form-box input,
+.form-box textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+}
+
+.form-box textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.stars {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.star {
+  font-size: 30px;
+  cursor: pointer;
+  color: #ccc;
+  margin-right: 5px;
+}
+
+.star.active {
+  color: gold;
+}
+
+.stars button {
+  margin-right: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.star-text {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.add-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.list-box {
+  margin-top: 20px;
+}
+
+.movie-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: white;
+}
+
+.delete-btn {
+  margin-top: 10px;
+  padding: 10px 14px;
+  background-color: crimson;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
