@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <h2 id="clock"></h2>
+
+  <script>
+    function updateClock() {
+      let now = new Date();
+      document.getElementById("clock").innerText = now.toLocaleTimeString();
+    }
+
+    setInterval(updateClock, 1000);
+  </script>
+
+</body>
+</html>
